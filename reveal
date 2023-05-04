@@ -2,7 +2,7 @@
 
 echo "❦ Font Revealer for Adobe Creative Cloud ❦"
 
-echo "Dry-Run will preview the renaming process without copy any files."
+echo "Dry-Run will preview the process without copy any files."
 select dce in "Dry-Run" "Copy" "Exit"; do
     case $dce in
         Dry-Run ) isDry=true; echo "Dry-running..."; break;;
